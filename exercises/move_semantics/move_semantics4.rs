@@ -10,7 +10,7 @@
 
 fn main() {
 
-    let mut vec1 = fill_vec();
+    let mut vec1 = fill_vec(); // 调用 fill_vec 函数来创建一个新的向量并将其赋值给 vec1
 
     println!("{} has length {} content `{:?}`", "vec1", vec1.len(), vec1);
 
